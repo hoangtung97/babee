@@ -657,11 +657,11 @@
       <!-- Start Events -->
       <div id="events" class="events-box">
          <div class="container">
-            <div class="row">
+            <div class="row justify-content-md-center">
                <div class="col-lg-10">
                   <div class="title-box">
-                     <h2>Kết lại</h2>
-                     <p>Anh cũng hi vọng em sẽ có một ngày sinh nhật thật là vui vẻ, hạnh phúc, 
+                     <h2>Cuối cùng là...</h2>
+                     <p style="font-size:40px;">Anh cũng hi vọng em sẽ có một ngày sinh nhật thật là vui vẻ, hạnh phúc, 
                         và rất may mắn cho em đã tìm được anh làm người yêu và sau này là chồng... Nhớ phải yêu anh thật lâu đấy nhé</p>
                   </div>
                </div>
@@ -669,7 +669,37 @@
          </div>
       </div>
       <!-- End Events -->
-      <embed name="GoodEnough" src="/music/good_enough.mp3" loop="false" hidden="true" autostart="true">
+
+      <!-- Start Contact -->
+	<div id="contact" class="contact-box">
+		<div class="container">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>Nếu em muốn nói điều gì với anh</h2>
+						<p>Thì viết vào đây nhé....</p>
+					</div>
+				</div>
+				<div class="col-lg-12 col-sm-12 col-xs-12">
+				  <div class="contact-block">
+					<form id="contactForm">
+						<div class="col-md-12">
+							<div class="form-group"> 
+								<textarea class="form-control" id="message" placeholder="Ở đây nhé" rows="8" data-error="Ở đây mà" required></textarea>
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="submit-button text-center">
+								<a class="btn btn-common" href="home.html" role="button">Gửi...</a>
+								<div id="msgSubmit" class="h3 text-center hidden"></div> 
+								<div class="clearfix"></div> 
+							</div>
+						</div>           
+					</form>
+				  </div>
+				</div>
+		</div>
+	</div>
+	<!-- End Contact -->
+      <embed name="GoodEnough" src="/music/hero.mp3" loop="true" hidden="true" autostart="true">
       
       <script>
          /* Demo purposes only */
