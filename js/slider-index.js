@@ -14,6 +14,7 @@ $(document).ready(function () {
 		displayProgess: false,
 		generateNav: false,
 		generateButtons: false
+		
 	}
 
 });
